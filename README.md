@@ -1,4 +1,4 @@
-# 2020-04-24 Git collaboration VShylienkov
+# 2020/04/24 Git collaboration VShylienkov
 Git collaboration workshop
 
 - `git clone <URL>`: downloads the repository from the web to our computer
@@ -25,3 +25,4 @@ Git collaboration workshop
 - don't forget ti clean up your branches
 - `git fetch --prune`: clean up the references in your `git log --oneline --graph --decorate --all`
 - `git branch -d <branch_name>`: delete branch on your local machine
+    - it will tell you

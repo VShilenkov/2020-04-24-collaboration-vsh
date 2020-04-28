@@ -1,4 +1,5 @@
-# 2020/04/24 Git collaboration VShylienkov
+# 2020-04-28 Git collaboration
+
 Git collaboration workshop
 
 - `git clone <URL>`: downloads the repository from the web to our computer
@@ -25,4 +26,10 @@ Git collaboration workshop
 - don't forget ti clean up your branches
 - `git fetch --prune`: clean up the references in your `git log --oneline --graph --decorate --all`
 - `git branch -d <branch_name>`: delete branch on your local machine
-    - it will tell you
+    - it will tell you to move to another branch (e.g. `master`) first
+
+## Rebasing or incorporating branch updates
+
+- `git rebase <branch>`: if `branch` is `master` replay the current branch off master
+    - will auto merge if possible
+    - potentially deal with conflicts
